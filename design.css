@@ -1,0 +1,116 @@
+body {
+	position: relative;
+}
+.carousel-indicators li {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+
+
+#searchText {
+	color:#ca4374;
+	font-family: cursive;
+	text-align: center;
+}
+
+#captionText {
+	font-family: cursive;
+}
+
+.first-alphabet-Large::first-letter {
+	font-size:3rem;
+}
+.dropdown {
+	margin:5vh;
+}
+.buttonStyle {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.scrollClass{
+
+	overflow-y: scroll; 
+}
+
+
+.headings{
+	font-style: italic;
+	font-weight: bold;
+}
+
+#awards {
+	color:#15bf15;
+	
+}
+
+#ratings {
+	color:#d23172;
+}
+#about {
+	color:#8a53f1;
+}
+
+#cast {
+	color:#007bff;
+}
+#otherInfo {
+	color:#d8831c;
+}
+.movieResponse, .movieNotfound {
+	visibility: hidden;
+}
+
+
+.footer {
+	bottom: 0;
+	width:100%;
+	height: 60px;
+	line-height: 50px;
+	background-color:#f5f5f5;
+	margin-top:50vh;
+}
+.imgHeight {
+	border :3px solid #378ae4;
+	margin-left:2vw;
+}
+
+.searchClass, .buttonClass {
+	display: inline-flex;
+}
+
+
+@media only screen and (max-width: 991px) {
+.imgHeight {
+
+	margin-left: 25vw;
+	margin-bottom: 2vh;
+}
+.scrollHeight {
+	margin-bottom: 2vh;
+}
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.searchClass {
+
+		padding-bottom: 2vh;
+
+	}
+
+	@media only screen and (min-width: 768px) {
+
+		.searchClass {
+		padding-right: 0
+
+		}
+		.buttonClass {
+		padding-left: 0
+
+		}
+	}
